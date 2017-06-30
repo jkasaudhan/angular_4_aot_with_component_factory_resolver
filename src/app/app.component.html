@@ -1,0 +1,11 @@
+<h1 *ngIf="showHeading">Dynamic component rendering with Angular's (ng4) ComponentFactoryResolver and AOT</h1>
+<button (click)="grid.addDynamicCellComponent(selectedComponentType)">Render Dynamic Component</button>
+<select class="form-control" [(ngModel)]="selectedComponentType">
+  <option *ngFor="let cellComponentType of componentTypes; let i = index" [ngValue]="cellComponentType">Component {{ i }}</option>
+</select>
+
+<h3>List of dynamically rendered components</h3>
+
+<div class="component-section">
+  <grid-component #grid></grid-component>
+</div>

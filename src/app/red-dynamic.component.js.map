@@ -1,0 +1,1 @@
+{"version":3,"sources":["red-dynamic.component.ts"],"names":[],"mappings":";;;;;;AAAA,OAAO,EAAA,SAAE,EAAS,MAAM,eAAA,CAAgB;AAMxC,IAAa,mBAAmB;IAAhC;IACA,CAAC;IAAD,0BAAC;AAAD,CADA,AACC,IAAA;AADY,mBAAmB;IAJ/B,SAAS,CAAC;QACP,QAAQ,EAAE,mBAAmB;QAC7B,QAAQ,EAAE,0GAA0G;KACvH,CAAC;GACW,mBAAmB,CAC/B;SADY,mBAAmB","file":"red-dynamic.component.js","sourceRoot":""}
